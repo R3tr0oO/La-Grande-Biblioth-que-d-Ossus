@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>La Grande Bibliothèque d'Ossus</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+          <span style="align-items: right;" onclick="openNav()">Menu</span>
+        </div> 
+    </header>
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="index.html">Accueil</a>
+          <a href="#">Services</a>
+          <a href="https://discord.gg/pXY2Zdsq4B">Contact</a>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="left-column">
+          <h2>Mentions légales:</h2>
+          <br>
+          <h4>Site web:</h4>
+          <p></p>
+          <br>
+          <h4>Propriétaire:</h4>
+          <p><a href="https://discord.gg/pXY2Zdsq4B"></a>La Grande Bibliothèque d'Ossus</a></p>
+          <br>
+          <h4>Publication Manager, Webmaster:</h4>
+          <p>Herqué Maxime</p>
+          <br>
+          <h4>Hébergeur:</h4>
+          <p>Github</p>
+          <br>
+          <h4>Cookies:</h4>
+          <p>Le site n'utilise pas de Cookies. En revanche, en acceptant l'invitation Discord, vous acceptez vous soumettre à leur politique de confifdentialité, ainsi qu'accepter l'utilisation de leurs cookies. Toute infraction sur Discord ne saurait nous concerner.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023, La Grande Bibliothèque d'Ossus.</p>
+    </footer>
+
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+        </script>
+</body>

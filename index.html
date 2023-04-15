@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>La Grande Bibliothèque d'Ossus</title>
+</head>
+<body>
+
+    <header>
+      <div class="logo">
+        <span style="align-items: right;" onclick="openNav()">Menu</span>
+      </div> 
+    </header>
+
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="https://discord.gg/pXY2Zdsq4B">Contact</a>
+        <a href="mentions_legales.html">Mentions Légales</a>
+      </div>
+    </div>
+      
+      <main class="container">
+        <div class="left-column">
+          <h2>Bienvenue sur La Grande Bibliothèque d'Ossus !</h2>
+          <br>
+          <p>Nous sommes un petit groupe de passionnés de Star Wars, rassemblés sur le serveur discord éponyme.</p>
+          <p>Le staff est composé de deux rédacteurs pour le site encyclopédique francophone <a href="https://www.anakinworld.com/">Anakinworld</a> et de deux influenceurs Twitter traitant les news sur l'univers Star Wars.</p>
+          <br>
+          <p>Vous retrouverez donc sur ce site des actualités, des critiques séries, films, livre, ou encore des articles en tout genre traitant de Star Wars.</p>
+          <br>
+          <br>
+          <p>L'équipe est composée actuellement de quatres membres:</p>
+          <ul>
+            <li>Moyeil: rédacteur pour Anakinworld.</li>
+            <li>SWLittérature: gérant du compte Twitter <a href="https://twitter.com/SW_Litterature">SWLittérature</a>.</li>
+            <li>Scream: gérant du compte Twitter <a href="https://twitter.com/Scr3amFR">ScreamFR</a>.</li>
+            <li>Max: rédacteur pour Anakinworld.</li>
+          </ul>
+          <br>
+          <p>Nous ésperons que vous passerez un agréble moment sur notre site web.</p>
+          <p>Vous pouvez par ailleur rejoindre notre serveur Discord, grâce à l'onglet contact accessible via le menu.</p>
+        </div>
+        <div class="right-column">
+            <img class="img-menu" src="images/ossus.png" alt="La Grande Bibliothèque d'Ossus">
+        </div>
+      </main>
+      
+      <footer>
+        <p>&copy; 2023, La Grande Bibliothèque d'Ossus.</p>
+      </footer>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+
+</body>
+</html>

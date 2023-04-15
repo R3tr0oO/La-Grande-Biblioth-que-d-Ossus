@@ -1,0 +1,130 @@
+:root{
+  --background: #EEE0CB;
+  --head_n_foot: #131515;
+  --overlay: #848586;
+  --overlay-txt: #2B2C28;
+  --txt: #FFFFFF;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--overlay-txt);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+  }
+  
+  header {
+    background-color: var(--head_n_foot);
+    color: var(--txt);
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  span{
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .left-column {
+    flex: 1;
+    padding: 20px;
+    background-color: var(--background);
+  }
+  
+  .right-column {
+    flex: 1;
+    padding: 20px;
+    background-color: var(--background);
+  }
+
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: var(--overlay);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: var(--txt);
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: var(--overlay-txt);
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  @media only screen and (max-width: 768px) {
+
+    
+    .left-column, .right-column {
+      flex: 100%;
+    }
+
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+  
+  footer {
+    background-color: var(--head_n_foot);
+    color: var(--txt);
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    left: 0; 
+    right: 0;
+    bottom: 0;
+    height: 30px;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .img-menu {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+  }
