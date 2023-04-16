@@ -26,17 +26,37 @@
         </div>
     </div>
 
+    <main class="container">
+        <div class="left-column">
+            <img class="img-right" src="../images/critique.png" alt="Critiques">
+        </div>
+        <div class="right-column">
+            <h2 class="h2" id="p1">Critique du roman <u><a href="../critiques/path_of_deceit.html">Path of Deceit</a></u></h2>
+   
+            <h2 class="h2" id="p2">Critique du roman <u><a href="../critiques/convergence.html">Convergence</a></u></h2>
+        </div>
+    </main>
+    
     <footer>
         <p>&copy; 2023, La Grande Bibliothèque d'Ossus.</p>
     </footer>
 
     <script>
         function openNav() {
-          document.getElementById("myNav").style.width = "100%";
+            document.getElementById("myNav").style.width = "100%";
         }
         
         function closeNav() {
-          document.getElementById("myNav").style.width = "0%";
+            document.getElementById("myNav").style.width = "0%";
         }
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <link href="https://codegena.com/assets/css/image-preview-for-link.css" rel="stylesheet">     
+    <script type="text/javascript">
+    $(function() {
+              $('#p1 a').miniPreview({ prefetch: 'pageload' });
+              $('#p2 a').miniPreview({ prefetch: 'parenthover' });
+              $('#p3 a').miniPreview({ prefetch: 'none' });
+          });
+    </script> <script src="https://codegena.com/assets/js/image-preview-for-link.js"></script>
 </body>
