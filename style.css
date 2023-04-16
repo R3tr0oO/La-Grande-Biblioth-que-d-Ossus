@@ -12,6 +12,11 @@
   width: 0;
 }     
 
+
+a{
+  text-decoration: none;
+}
+
 body {
     background-color: var(--background);
     color: var(--overlay-txt);
