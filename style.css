@@ -148,21 +148,16 @@ body {
   }
 
   .img-right {
-      width: 700px;
-      height: 1000px;
+      width: 400px;
+      height: 800px;
       object-fit: none;
   }
 
   .img-couv{
-    max-width: 600px;
+    max-width: 400px;
     height: auto;
   }
 
-  .img-barre {
-    width: 600px;
-    height: 25px;
-    object-fit: none;
-}
 /*<img style="width: 600px; height: 100px; object-fit: none;" src="../images/stars.png" alt="Stars">*/
 
 
