@@ -60,7 +60,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: var(--overlay);
+    background-image: url("images/stars.png");
     overflow-x: hidden;
     transition: 0.5s;
   }
@@ -83,7 +83,7 @@ body {
   }
   
   .overlay a:hover, .overlay a:focus {
-    color: var(--overlay-txt);
+    color: var(--background);
   }
   
   .overlay .closebtn {
@@ -128,3 +128,4 @@ body {
     max-width: 100%;
     height: auto;
   }
+
