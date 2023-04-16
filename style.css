@@ -148,8 +148,8 @@ body {
   }
 
   .img-right {
-      max-width: 400px;
-      height: auto;
+      width: 500px;
+      height: 1000;
       object-fit: none;
   }
 
