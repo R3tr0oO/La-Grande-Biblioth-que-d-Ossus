@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../style.css" rel="stylesheet">
+    <title>La Grande Bibliothèque d'Ossus</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <span style="align-items: right;" onclick="openNav()">Menu</span>
+        </div> 
+    </header>
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="../index.html">Accueil</a>
+            <a href="../cat_index/index_articles.html">Actu</a>
+            <a href="../cat_index/index_critiques.html">Critiques</a>
+            <a href="../cat_index/index_articles.html">Articles</a>
+            <a href="https://discord.gg/pXY2Zdsq4B">Contact</a>
+            <a href="../mentions_legales.html">Mentions Légales</a>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="left-column">
+            <h2>Auteur:</h2>
+            <p>Tessa Gratton, Justina Ireland</p>
+            <h2>Titre:</h2>
+            <p><u>Path of Deceit</u></p>
+            <h2 >Date de publication VO:</h2>
+            <p>4 octobre 2022</p>
+            <br>
+            <h2 class="h2">Critique par Max:</h2>
+            <p>Le récit est assez court (environ 250 pages) pour un roman de la HR et n'est pas débordant d'action. C'est en quelque sorte un roman de construction, tel qu'on aurait dû avoir pour la phase 1, qui je trouve nous balance un peu trop rapidement dans la nouvelle periode. </p>
+            <p>Les personnages s'installent, prennent le temps d'être développés et sont relativement peu nombreux (5 perso majeurs), ce qui est, à mon sens parfait. La narration est assez intéressantes, ainsi que les événements. De plus, on comprend petit à petit où va nous mener la phase 2.</p>
+            <p>Malgré deux auteurs sur le roman, on ne subit pas un changement d'écriture brut, c'est vraiment subtil et bien fait. Chapeau les artistes.</p>
+            <p>Je pense que c'est mon gros coup de cœur HR !</p>
+        </div>
+        <div class="right-column">
+            <img class="img-couv" src="../images/pod.png" alt="Path of Deceit" title="Path of Deceit">
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023, La Grande Bibliothèque d'Ossus.</p>
+    </footer>
+
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+</body>
